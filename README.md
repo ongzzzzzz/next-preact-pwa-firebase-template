@@ -132,6 +132,10 @@ To learn more about Firebase, take a look at the following resources:
 - [Firebase Documentation](https://firebase.google.com/docs) - learn about Firebase features and API.
 - [Firebase YouTube Channel](https://www.youtube.com/user/Firebase) - Firebase's collection of videos.
 
+To learn more about Preact, take a look at the following resources:
+
+- [Preact Documentation](https://preactjs.com/) - learn more about Preact and its optimization.
+- [Preact's Github Repo](https://github.com/preactjs/preact) - look at the source code of Preact.
 
 ## Credits
 
