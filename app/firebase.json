@@ -1,0 +1,32 @@
+{
+  	"functions": {
+		"runtime": "nodejs12",
+		"source": ".",
+		"ignore": [
+			"firebase.json",
+			"firbease-debug.log",
+			"**/.*",
+			"**/node_modules/**",
+			"components/**",
+			"helpers/**",
+			"pages/**",
+			"public/**",
+			"firestore.rules",
+			"README.md"
+		]
+	},
+  	"hosting": [
+		{
+			"site": "YOUR FIREBASE HOSTING SITE",
+			"public": "public/",
+			"cleanUrls": true,
+			"rewrites": [
+				{
+					"source": "**",
+					"function": "nextjs-preactServer"
+				}
+			]
+		}
+	]
+}
+
